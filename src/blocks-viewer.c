@@ -208,7 +208,7 @@ static int parse_blocks(const char * block_file, shell_context_t * shell)
 		if(num_blocks >= MAX_BLOCKS) break;
 		p += cb;
 		
-	#if 1
+	#if 0
 		if(num_blocks >= 3) break;
 	#endif
 	}
